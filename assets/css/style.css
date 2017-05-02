@@ -1,0 +1,2493 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 93%;
+}
+
+#main{
+  min-height:100%;
+  margin:0 auto;
+  position:relative;
+  background-color:#ebebeb; 
+}
+
+@font-face{
+  font-family : "Montserrat";
+  src : url('../polices/Montserrat-Regular.otf');
+}
+
+@font-face{
+  font-family : "Market_Deco";
+  src : url('../polices/Market_Deco.ttf');
+}
+
+@font-face{
+  font-family : "Stackyard";
+  src : url('../polices/Stackyard_PERSONAL_USE.ttf');
+}
+
+@font-face{
+  font-family : "Helvetica Neue";
+  src : url('../polices/HelveticaNeue-UltraLigExt.otf');
+}
+
+@font-face{
+  font-family : "Roboto-Light";
+  src : url('../polices/Roboto-Light.ttf');
+}
+
+@font-face{
+  font-family : "CODE_Light";
+  src : url('../polices/CODE_Light.otf');
+}
+
+.clear{
+  clear: both;
+}
+
+#logo img{ 
+  height: 50px;
+}
+
+.nav {
+  z-index: 1000;
+  position : fixed;
+  left: 0px;
+  top:0px;
+  width: 100%;
+  background:#3f4040;
+}  
+
+#profil_pic{
+  background: none;
+}
+
+.succes{
+  display:block;
+  width: 80%;
+  margin:auto;
+  background-color: #D7EECE;
+  border-radius: 10px;
+  border: 1px solid #295A28;
+  color:  #295A28;
+  padding: 15px 0px;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#preloader{
+  display: none;
+  position: absolute;
+  bottom: 110px;
+  left: 45%;
+}
+
+
+.echec{
+  display:block;
+  width: 80%;
+  margin:auto;
+  background-color: #EFD6D6;
+  border-radius: 10px;
+  border: 1px solid #8F2D2E;
+  color:  #8F2D2E;
+  padding: 15px 0px;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#index{
+  margin-top: 150px; 
+  margin-bottom: -120px; }
+
+.nav ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	position:relative;
+  background:#3f4040;
+}
+	
+.nav ul li {
+	float:right;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+li#logo{
+  width:20%;
+  float:left;
+}
+
+.other{
+    width:20%;
+  }
+	
+.nav ul li a{
+	display:block;
+  font:normal 20px "Roboto-Light";
+  background:#3f4040;
+  text-align:center;
+  padding:20px 15px 20px 15px;
+  text-decoration:none;
+  color:#FFF;
+  transition:background 500ms,color 500ms;
+}
+   
+.nav ul li a:hover{
+  background:#3f4040;
+  color:#FFF;
+}
+
+.nav ul li ul{
+  position:absolute;
+  top:62px;
+  left:0;
+  display:none;
+  width: 100%;
+}
+
+.nav ul li ul li{ 
+  display: block; 
+  float:none;
+}
+ 
+.nav ul li ul li a{
+  background:#3f4040;
+  display:block;
+  font:normal normal 20px "Roboto-Light";
+  text-decoration:none;
+  color:#FFF;
+}
+   
+.nav ul li ul li a:hover{
+  background:#666;
+}
+
+#nav a{
+    font-size:16px;
+    line-height:22px;
+    display: block;
+  }
+
+#hidden
+{
+  opacity: 0;
+}
+
+.cache{
+opacity:1;}
+
+#content, #content1{
+  margin-top: 62px;
+  padding-bottom:150px;
+}
+
+#content1{
+  padding-bottom: 20px;
+}
+
+#present{
+  height: 350px;
+  background-image: url('../images/jeep.jpg'); 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+  text-align: center;
+  font-family:"Helvetica Neue";
+  color: white; 
+  padding-bottom: 0px;
+}
+ 
+h2#home{
+  padding: 80px 0px 30px 0px; 
+  font-size: 500%; 
+  letter-spacing: 0px;
+  font-weight: 900;
+  font-family: "Market Deco";
+  text-shadow: 2px 2px 5px #000000;
+}
+
+#slogan{
+  font-size: 120%;
+  letter-spacing: 3px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+#user-button{
+  margin: 40px 0px 0px 0px; 
+}
+
+.button1{
+  color: #a7343d;
+  font-family: "Montserrat";
+  font-size: 18px; 
+  padding: 10px 15px;
+  border-radius: 5px; 
+  margin: 20px 50px 0px 50px;  
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: 200;
+  text-decoration: none; 
+}
+.button1{
+  color: #a7343d;
+  font-family: "Montserrat";
+  font-size: 18px; 
+  padding: 10px 15px;
+  border-radius: 5px; 
+  margin: 20px 50px 0px 50px;  
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: 200;
+  text-decoration: none; 
+}
+.button1:hover{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 18px; 
+  padding: 10px 15px;
+  border-radius: 5px; 
+  margin: 20px 50px 0px 50px;  
+  background-color: #a7343d;
+  font-weight: 200;
+  text-decoration: none; 
+}
+
+
+.pictos{
+  margin-top: -80px; 
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left; 
+  width: 13%;
+  font-size:90%;
+  color: #a7343d;
+  font-family: "Montserrat";
+}
+
+.pictos img{
+  width: 100%;
+  z-index: 1;
+}
+
+#pictos{
+  position: relative;
+  top: 90px; 
+  left: 0px; 
+  width: 80%;
+  margin: auto; 
+}
+
+h1{
+  font-family: "Montserrat";
+  border-bottom: 1px solid #a7343d; 
+  padding: 20px 0px;
+  color: #a7343d; 
+  margin: auto; 
+  text-align: center; 
+  font-size: 29px;   
+  margin: auto;
+
+}
+
+h1#accueil{
+  font-size: 200%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width:385px;
+}
+h1#modif{
+  width:385px;
+    margin-bottom: 50px;
+
+}
+
+
+h1#voyage-seul{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:385px;
+}
+
+h1#faq{
+  width: 500px;
+   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h4{
+  font-family: "Montserrat";
+  border-bottom: 1px solid #a7343d; 
+  padding: 20px 0px;
+  color: #a7343d; 
+  width: 285px;   
+  margin: auto;
+  margin-top:20px;
+  margin-bottom: 50px;
+  text-align: center; 
+  font-size: 200%;
+}
+
+#video p {
+  color: black;
+  font-family: "Roboto-Light"; 
+  line-height: 40px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#video p#lien{
+  text-align: center;
+}
+
+#video p#lien a{
+     text-decoration: none;
+    color: white;
+    background-color: #3f4040;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+#video p#lien a:hover{
+     text-decoration: none;
+    color: #3f4040;
+    background-color:#CCC ;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+h5{
+  font-family: "Montserrat";
+  border-bottom: 1px solid #a7343d; 
+  padding: 20px 0px;
+  color: #a7343d; 
+  margin:auto;
+  width: 285px; 
+  margin-bottom: 50px;
+  text-align: center; 
+  font-size: 150%;
+}
+
+#logo a {
+  padding: 3px 0px;
+}
+
+#logo a b{
+  display:inline-block;
+  line-height: 20px;
+  position: relative;
+  top: -18px;
+  left: 5px;
+  font-family:"Montserrat";
+}
+
+#origin-map{
+  display: block;
+}
+
+
+.dest{  
+  margin-top: 60px; 
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left; 
+  width: 28%;
+  background-color: white; 
+  border-radius: 10px;
+  font-family: "Montserrat";
+  text-align: center; 
+  font-size: 18px;
+  line-height: 50px; 
+}
+
+.dest p b{
+  color: #a7343d;
+  font-size: 20px;
+  margin-top: 20px; 
+  border-top: 3px solid #a7343d;
+  border-bottom: 3px solid #a7343d;
+ }
+ 
+.dest a{
+  text-decoration: none; 
+  color: white; 
+  background-color: #3f4040; 
+  padding: 10px 25px; 
+  font-size: 14px; 
+  border-radius: 3px; 
+}
+.dest a:hover{
+  text-decoration: none; 
+  color: #3f4040; 
+  background-color: #CCC; 
+  padding: 10px 25px; 
+  font-size: 14px; 
+  border-radius: 3px; 
+}
+
+.dest img{
+  padding: 2%;
+  padding-top: 20px;
+  width: 80%;
+  border-radius: 60%;
+}
+
+.dest p img{
+  width: 40px; 
+}
+
+#destinations{
+  width: 90%;
+  margin: auto; 
+}
+
+#bandeau-photo{
+  margin: 40px 0px; 
+  padding: 20px 0px; 
+}
+
+#video{
+  margin: 0px 60px ;
+}
+
+#bandeau-video{
+   background-color: white;
+   padding: 30px 0px;
+   margin: 60px 0px;
+}
+
+#video iframe{
+  float: left; 
+  margin-right: 30px; 
+  width: 50%;
+  height: 430px;
+  border: 0;
+}
+
+#para-video{
+  width: 40%;
+  float:right;
+}
+
+.pola{
+  background-color: white; 
+  width: 18%;
+  float: left; 
+  padding: 10px 10px 10px 10px;
+  margin-left: 2%; 
+  margin-right: 2%; 
+  margin-bottom: 20px;
+  padding: 10px 10px 5%;
+}
+
+
+#budget, #inscription-page, #membres, #infos{
+  display: none;
+}
+
+.pola img{ 
+  width: 100%; 
+}
+
+.pola p{
+  font-family: "Stackyard";
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.plus-photo{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.plus-photo a{
+  text-decoration: none; 
+  color: white; 
+  background-color: #3f4040; 
+  padding: 10px 25px; 
+  font-size: 14px; 
+  border-radius: 3px; 
+  font-family: "Montserrat";
+}
+.plus-photo a:hover{
+  text-decoration: none; 
+  color: #3f4040; 
+  background-color: #CCC; 
+  padding: 10px 25px; 
+  font-size: 14px; 
+  border-radius: 3px; 
+  font-family: "Montserrat";
+}
+#pays{
+  width: 100%;
+  text-align: center;
+}
+
+.pays {
+  float: left;
+  width: 25%;
+  display:block;
+  text-align: center;
+}
+
+.pays a{
+  color: #a7343d;
+  font-family: "Montserrat";
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.pays a:active{
+  border-bottom: solid #a7343d 3px;
+  border-top: solid #a7343d 3px;
+}
+
+#pays img{ 
+  width: 900px;
+  margin: auto;
+  margin-top: 40px; 
+}
+
+footer{
+  background-color: #3f4040;
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom:-20px;
+}
+
+footer a{
+  color: white; 
+  text-decoration: none; 
+  font:normal 16px "Roboto-Light";
+  padding: 0px 50px;
+  display:inline-block;
+}
+
+#descriptions{
+  width: 900px; 
+  margin: auto;
+}
+
+#desc-amerique{
+  color: black;
+  width: 200px;
+  position: relative;
+  top: -250px;
+  left: 350px;
+  font-family: "Montserrat";
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  display:none;
+}
+
+#desc-france{
+  color: black;
+  width: 200px;
+  position: relative;
+  top: -490px;
+  left: 450px;
+  font-family: "Montserrat";
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  display: none;
+}
+
+#desc-inde{
+  color: black;
+  width: 300px;
+  position: relative;
+  top: -480px;
+  left: 600px;
+  font-family: "Montserrat";
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  display: none;
+}
+
+#desc-australie{
+  color: black;
+  width: 300px;
+  position: relative;
+  top: -350px;
+  left: 700px;
+  font-family: "Montserrat";
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 10px;
+  display: none;
+}
+
+h3{
+  color: #a7343d;
+  text-align: center;
+  font-size: 16px;
+}
+
+#social-networks{
+  width: 50px;
+  z-index: 2000;
+  background-color: #3f4040;
+}
+
+#social-networks img{
+  width: 30px;
+  padding: 10px;
+}
+
+form{ 
+  color: white; 
+  font-family: "Roboto-light"; 
+  margin-top: 30px; 
+}
+
+input#mail{
+  width: 150px; 
+  height: 22px;
+}
+
+input#sub{
+  background-color:#a7343d; 
+  border: 0; 
+  color:white;
+  height:26px; 
+  padding: 0px 10px;
+}
+
+h1#inscription{
+  border-top: none;
+  border-bottom: 1px solid #a7343d; 
+  padding: 20px 0px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+h1#inscription1{
+  border-top: none;
+  border-bottom: 1px solid #a7343d; 
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+form#form_user {
+  padding-bottom: 40px;
+  width:70%;
+  margin:auto;
+  font-family: "Montserrat"; 
+}
+
+form#form_user label{ 
+  margin-right: 20px;
+  display:block;
+  width: 200px;
+  float:left;
+  color: #a7343d;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+form#form_user input, form#form_user textarea, form#form_user select{
+  border-radius: 5px;
+  height: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+  float:left;
+  font-size: 15px;
+}
+
+form#form_user textarea{
+  height: 120px;
+  border: 2px inset;
+}
+
+form#form_user input#submit{
+  border: solid 2px #a7343d;
+  background: none;
+  font-size: 20px;
+  color:#a7343d;
+  font-size: 16px;
+  width: 205px;
+  font-family: "Montserrat"; 
+  margin-right: 50px; 
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+form#form_user img{
+  height: 30px;
+  float:left;
+  margin-left:20px;
+}
+
+p#compte{font-size: 18px;
+  padding: 0px 0px 40px 15%;
+  font-family: "Roboto-Light"; 
+}
+
+p#compte a{
+  color: #a7343d;
+  text-decoration: none;
+  padding-left: 20px ;
+  font-family: "Montserrat"; 
+}
+
+p#oubli a{
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat"; 
+}
+
+form#form_user label#confirm{
+  margin-top:-10px;
+}
+
+p#oubli{
+  font-size: 14px;
+  color:black;
+  font-family: "Montserrat"; 
+  margin-left: 220px;
+}
+
+.fileUpload{ 
+  position:relative;
+  overflow: hidden;
+  color: red;
+  width: 50%;
+  height: 40px;
+  cursor: pointer;float:left;
+}
+
+.fileUpload span{
+  position:relative;
+  left: -50%;
+  border-radius: 5px;
+  top:10px;
+  color: white;
+  background-color: #a7343d;
+  padding: 5px 30px;
+  
+}
+
+input.file{
+  margin: 0;
+  padding:0;
+  font-size:20px;
+  opacity: 0; 
+  cursor: pointer;
+  filter: alpha(opacity=1);
+  float: left;
+}
+
+img#test6 { 
+  padding-left: 5px;
+}
+
+h2#concept{
+  color:#a7343d;
+  background-color: rgba(255,255,255,0.7);
+  font-family: "Montserrat"; 
+  font-size: 25px;
+  width: 350px;
+  padding: 20px;
+  position:relative;
+  top:150px;
+}
+
+#bandeau{
+  height: 350px;
+  background-image: url('../images/groupe2.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau2{
+  height: 350px;
+  background-image: url('../images/gens.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+.avantages{
+  float: left;
+  width: 50%;
+}
+
+.avantages img{
+  width:90px;
+  float:left;
+  margin: 20px 20px 20px 20px;
+}
+
+.avantages p{
+  text-align: justify;
+  margin: 20px;
+  float:left;
+  width:65%;
+  font-family: "Roboto-Light";
+  font-size: 80%
+}
+
+.avantages b{
+  font-family: "Montserrat";
+  line-height: 40px;
+}
+
+#bandeau-map{
+  height: 600px;
+  background-image: url('../images/carte-fond.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  margin-top: 60px;
+  text-align: center;
+  font-family:"Montserrat";
+}
+
+#bandeau-map img{
+  width: 70%;
+}
+
+#conteneur{
+    display:none;
+      position:absolute;
+      top:0px;
+      left:0px;
+      background-color: rgba(0,0,0,0.9);
+      width:100%;
+      height:100%;
+      z-index:1;
+      font-family: "Roboto-Light";
+}
+
+.lightbox img{
+  padding: 13px;
+  width: 21%;
+}
+
+.mes-images{
+  width: 80%;
+    text-align:center;
+  margin:auto; 
+  border-radius: 10px; 
+  background-color: white;
+}
+
+#imagebox p b{
+  font-family: "Montserrat";
+}
+
+#imagebox img.profil-pic{
+  width: 35px;
+  position: relative;
+  top: 30px;
+  left: -20px;
+  border-radius: 60%;
+}
+
+.comment-photo{
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding:10px;
+  font-size: 80%;
+  padding-left: 20px;
+  
+}
+
+h3#pays{
+  height: 60px;
+  padding-top: 40px;
+  background-color: white;
+  border-radius: 60%;
+  width: 100px;
+  border: 2px #a7343d dashed;
+  margin:auto;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+
+.commentaire-photo{
+   margin-top: -30px;
+}
+
+img#fermer{
+  float: right;;
+  width: 10px;
+  margin-top: 5px;
+}
+form#comment{
+  background-color: #ebebeb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding:10px;
+}
+
+form#comment input{
+  width: 95%;
+border:none;  
+background: none;
+
+}
+
+.sub-hidden{
+  display:none;
+}
+
+#first-step{
+  position: relative ;
+  top: 10%;
+  left:35%;
+  width:20%;
+  text-align: left;
+}
+
+#second-step{
+  position: relative ;
+  top: 30%;
+  left:55%;
+  width:20%;
+  text-align: left;
+}
+
+#third-step{
+  position: relative ;
+  top: 60%;
+  left:45%;
+  width:20%;
+  text-align: left;
+}
+img#grand-etape{
+  position:relative;
+  top:-150px;
+}
+
+img#petit-etape{
+  display:none;
+}
+
+#border{
+  width: 30%;
+  height: 600px;
+  margin:auto;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
+.bloc-equipe{
+  margin: 20px 0px 40px 0px;
+  float:left;
+  width: 33%;
+  text-align: center;
+}
+
+.bloc-equipe p{
+  font-family: "Montserrat"; 
+  color: #a7343d;
+  margin-top: 20px;
+}
+
+.bloc-equipe img{ 
+  margin-top: 20px;
+  width: 60%;
+  border-radius: 60%;
+}
+
+.bloc-equipe1{
+  margin: 20px 0px 40px 0px;
+  float:left;
+  width: 20%;
+  text-align: center;
+}
+
+.bloc-equipe1 p{
+  font-family: "Roboto-Light"; 
+  color: #a7343d;
+  margin-top: 20px;
+}
+
+.bloc-equipe1 img{ 
+  margin-top: 20px;
+  width: 40%;
+  border-radius: 60%;
+}
+
+#equipe {
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#bandeau-voy{
+  height: 350px;
+  background-image: url('../images/moodboard1.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-voy1{
+  height: 350px;
+  background-image: url('../images/big-img1.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-galerie{
+  height: 350px;
+  background-image: url('../images/camera.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-voy2{
+  height: 350px;
+  background-image: url('../images/groupe1.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-voy5{
+  height: 350px;
+  background-image: url('../images/bandeau-5-min.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-voy6{
+  height: 350px;
+  background-image: url('../images/moodboard2.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+h2#voyages{
+  color:#a7343d;
+  background-color: rgba(255,255,255,0.7);
+  font-family: "Montserrat"; 
+  font-size: 25px;
+  width: 350px;
+  padding: 20px;
+  position:relative;
+  top:70px;
+}
+
+form#choix-voyages{
+  font-family: "Montserrat"; 
+  font-size: 25px;
+  text-align: center;
+  position:relative;
+  top:170px;
+
+}
+
+form#choix-voyages select, form#form_user select, form#choix-voyages input{
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+
+form#choix-voyages input{
+  
+  padding-left: 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background-color: #3f4040;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.form-group
+{
+      float: right;
+    color: #3f4040;
+    text-decoration: none;
+    margin-top: -10px
+}
+.form-group a
+{
+    float: right;
+    color: #3f4040;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size :9px;
+}
+
+
+
+form#choix-voyages select, form#form_user select{
+  background-color: rgba(255,255,255,0.8);
+  color: #666;
+  border: 1px solid #666;border-radius: 5px;
+}
+
+form#form_user select{
+  border: 2px inset;
+  width:50%;
+}
+
+.bloc-voyages{
+  background-color: white;
+  border-radius: 10px;
+  width: 80%; 
+  margin:auto;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+}
+
+.bloc-voyages img{
+  width: 40px;
+  border-radius: 60%;
+}
+
+.bloc-voyages img.big-img{
+  width:230px;
+}
+
+.bloc-voyages p b{ 
+  line-height: 50px;  
+  font-family: "Montserrat";
+}
+
+h3.nom-voyage{
+  text-align: left;
+  padding-top: 40px; 
+  font-size: 150%;
+}
+
+.bloc-voyages .bloc-gauche{
+  float:left;
+  width:230px;
+  padding:20px;
+  text-align: center;
+  color:#a7343d ;
+  margin-right: 30px
+}
+
+
+h2.nom-pays{
+  border-top: 4px solid #a7343d;
+  border-bottom: 4px solid #a7343d;
+  margin-top: 10px;
+}
+
+p.places{
+  padding: 20px;
+  width:40%;
+  float:left;
+}
+
+p.plus-bloc{
+  width:48%;
+  float:left;
+}
+
+p.plus-bloc1{
+  padding: 20px;
+  width:56%;
+  float:left;
+}
+
+#photos_all p.plus-bloc{
+  width:90%;
+  padding-bottom: 10px;
+  float:left;
+}
+
+p.places  img{ 
+  width: 25px;
+}
+
+.bloc-voyages a{
+  float: right;
+  background-color: #3f4040;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+.bloc-voyages a:hover{
+  float: right;
+  background-color: #CCC;
+  color: #3f4040;
+  border-radius: 5px;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+
+.buttonp{
+  float: right;
+  background-color: #3f4040;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+.buttonp:hover{
+  float: right;
+  background-color: #CCC;
+  color: #3f4040;
+  border-radius: 5px;
+  padding: 8px 50px;
+  text-decoration: none;
+}
+
+.description-voy{
+  font-family: "Roboto-Light";
+  width: 90%;
+}
+
+#bandeau-voyage{
+  height: 350px;
+  background-image: url('../images/valise.jpg');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#bandeau-faq{
+  height: 350px;
+  background-image: url('../images/bandeau-detail.png');
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+#etapes-voyage{
+  width:70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#bande-etapes{
+  text-align:center;
+}
+
+#menu-voyage {
+  width: 100%;
+  background:#a7343d;
+}  
+
+ul#menu-voyage{
+  padding:0;
+  margin:0;
+  list-style:none;
+  position:relative;
+  background:#a7343d;
+}
+  
+ul#menu-voyage li {
+  float:left;
+  margin:0;
+  padding:0;
+  position:relative;
+  width:33%;
+  border-right: 1px solid white;
+}
+
+ul#menu-voyage li a{
+  display:block;
+  font:normal 20px "Roboto-Light";
+  background:#a7343d;
+  text-align:center;
+  padding:10px 15px 10px 15px;
+  text-decoration:none;
+  color:white;
+  transition:background 500ms,color 500ms;
+}
+   
+ul#menu-voyage li a:hover{
+  background:white;
+  color:#a7343d;
+}
+
+.etapes-bloc{
+  width:80%;
+  margin:auto;
+  color:#a7343d;
+  font-family: "Montserrat";
+  margin-top:40px;
+}
+
+.etapes-bloc1{
+  width:100%;
+  margin:auto;
+  color:#a7343d;
+  font-family: "Montserrat";
+  margin-top:40px;
+}
+
+.etapes-bloc2{
+  width:100%;
+  margin:auto;
+}
+
+.etapes-bloc p.nom-etape{
+  float:left;
+  width:10%;
+}
+
+.etapes-bloc .white-bloc{
+  background-color: white;
+  width: 80%;
+  float:left;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.etapes-bloc1 .white-bloc1{
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.etapes-bloc2 .white-bloc1{
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.img-voyage{
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.img-hotel{
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.img-hotel img{
+  width: 70%;
+  border-radius: 60%;
+  margin:10px 0px;
+}
+
+.white-bloc1 img#notation{
+  width : 150px;
+
+}
+.etapes-bloc h3{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.white-bloc p, .white-bloc1 p{
+  color: black;
+  width: 90%;
+  font-family: "Roboto-Light";
+}
+
+.white-bloc1 h3{
+  font-size: 150%;
+  margin-bottom: 0px;
+  display: inline-block;
+
+}
+
+.white-bloc1 p.sous{
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+
+h1#profil{
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+#bloc-profil{
+  font-family: "Montserrat";
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  margin:auto;
+  padding: 20px 40px;
+}
+
+#descr-princ{
+  font-size: 125%;
+  margin-top: 40px;
+  margin-left: 40%;
+  font-family: "Roboto-Light"
+}
+
+#descr-princ b{
+  font-family: "Montserrat";
+  color: #a7343d;
+  line-height: 50px;
+}
+
+.questions p{
+font-family: "Roboto-Light";
+}
+
+.questions {
+  padding: 20px;
+}
+
+.pointer{
+  cursor:pointer;
+}
+
+#descr-sec{
+  clear:both;
+  font-family: "Roboto-Light";
+}
+
+#descr-sec span{
+  line-height: 50px;
+  color: #a7343d;
+  font-family: "Montserrat";
+}
+
+#pays-aimes{
+  margin-top: 60px;
+}
+
+#pays-aimes b{
+  font-family: "Montserrat";
+  background-color: #a7343d;
+  margin: 0px 20px;
+  color: white;
+  padding: 5px 20px;
+}
+
+#bloc-galerie{
+  width: 80%;
+  margin: auto;
+}
+
+#bloc-galerie div{
+  width: 25%;
+  float: left;
+  margin-top: 40px;
+}
+
+#bloc-galerie div img{
+  width: 80%;
+  height: 200px;
+   margin: auto;
+   margin-left: 10%;
+}
+
+#certifie{
+  text-align: center;
+  font-family: "Montserrat";
+  margin: 30px;
+  font-size: 125%;
+  font-style: italic;
+}
+
+#modif-profil{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#modif-profil a {
+  font-family: "Montserrat";
+  background-color: #a7343d;
+  padding: 5px 40px;
+  color: white; 
+  text-decoration: none;
+}
+
+#bloc-profil img{
+  width: 25%;
+  float: left;
+}
+
+h3.mentions{
+  text-align: left;
+  margin: 20px;
+}
+
+div#mention p{
+  width: 80%;
+  font-family: "Roboto-Light";
+  margin: auto;
+}
+
+div#mention h1{
+  width: 375px;
+}
+
+#publish, .article{
+  width: 80% ;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 60px; 
+  padding-bottom: 20px;
+}
+
+#publish img, img.profil-art{
+  width: 130px;
+  float: left;
+  position: relative;
+  top: -60px;
+  left: -60px;
+  border-radius: 60%;
+  padding:10px;
+}
+
+#publication{ 
+  float: left;
+  width: 75%;
+  margin-left: -40px;
+}
+
+#publication textarea{
+  width: 100%;
+  height: 120px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Montserrat";
+  font-size: 125%;
+}
+
+.article h3{
+  text-align: left;
+  color: black;
+  font-size: 180%;
+  padding: 40px 0px;
+  font-family: "Montserrat";
+}
+
+.article .droite-p{
+  width: 75%;
+  float: left;
+  margin-left: -40px;
+}
+
+.article{
+  padding-bottom: 40px;
+}
+
+.article p{
+  font-family: "Roboto-Light";
+  
+}
+
+.comment, .comments{
+  background-color: #ebebeb;
+  width: 75%;
+  margin-left: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.comment input{
+width: 100%;
+background-color: #ebebeb;
+border: none;
+font-family: "Montserrat";
+font-size: 100%;
+}
+
+.comments h4{
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 100%;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.comments img{
+  width: 50px;
+  float:left;
+  position: relative;
+  left:-30px;
+  top:-30px;
+   border-radius: 60%;
+  padding:10px;
+}
+
+.bloc-comment p{
+  font-size:90%;
+  margin-bottom: 20px;
+}
+
+#search-voyage{
+  width: 70%;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#search-voyage input#text-search{
+  width: 90%;
+  height: 20px;
+  border: none; 
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 10px;
+}
+
+#search-voyage input#search-now{
+  background-color: white;
+  background-image: url('../images/magnifier.png');
+  background-size: cover;
+  border: none;
+  padding: 15px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+#bloc-prix{
+  width: 70%;
+  margin:auto;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+#bloc-prix p{
+  font-family: "Roboto-Light";
+}
+
+p#echelle-prix b{
+  line-height: 50px;
+}
+
+p#prix-mom{
+  float: right;
+  width: 100px;
+  font-family: "Montserrat";
+  color:#a7343d;
+  padding-top: 5px;
+  font-size: 180%;
+}
+
+p#inscr-mom{
+  float: right;
+  width: 300px;
+}
+
+#bloc-prix h3{
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+
+#bandeau-avantages{
+  width: 100%;
+  background-color: white;
+  padding: 40px 0px;
+}
+
+.renvoi {
+  text-align: center;
+  margin: 60px;
+}
+
+.renvoi a{
+  text-decoration: none;
+  background-color: #3f4040;
+  padding: 10px 40px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#bandeau-avantages h4{ 
+  width: 400px;
+}
+
+h3.titre-bloc{
+  text-align: left;
+  margin: 40px 0px 20px 8%;
+}
+
+
+
+input.publier{
+    float:right;
+    width:200px;
+    background-color: #3f4040;
+    padding: 10px 30px;
+    margin-right: -20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 90%;
+  }
+
+  .bloc_gauche{
+  float:left;
+  width:50%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bloc_droite{
+  padding-top: 30px;
+  float:right;
+  width:50%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: black;
+  font-family: "Roboto-Light";
+
+}
+
+.bloc_droite label{ text-align: left; display:block; margin-left: 10% }
+
+.bloc_droite input{
+  
+  border:none;
+  background: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  font-size: 90%
+}
+.bloc_gauche img{
+  border-radius: 60%;
+  width: 200px;
+}
+
+.selector{
+  width : 70%;
+}
+
+#type{text-align: center;}
+
+.bloc_gauche input.file{
+  opacity:1;
+  margin-left: 35%;
+}
+
+.bloc_droite #submit{
+   border: solid 2px #a7343d;
+  background: none;
+  font-size: 20px;
+  color:#a7343d;
+  font-size: 16px;
+  width: 205px;
+  font-family: "Montserrat"; 
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+
+.ytp-thumbnail-overlay {
+z-index:none;}
+
+
+ #bloc-texte{
+          float:right;
+          width: 45%;
+          margin: auto;
+        }
+
+  #image{
+          width:45%;
+          height:auto;
+          margin:auto;
+        }
+
+  #imagebox{
+          padding:10px;
+          width:70%;
+          border:none;
+          border-radius:10px;
+          position:fixed;
+          top:100px;
+          left:15%;
+          background-color:white}
+
+.essai{
+   padding-top: 40px;
+    padding-left:20px;
+    height: 250px; 
+    width: 90%;
+    overflow-y:scroll; 
+}
+  #commentss{
+ 
+  }    
+  #social-network{ 
+    display: none;
+  }
+
+
+ form#choix-voyages input#deco
+{
+    background-color: rgba(255,255,255,0.8);
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 10px;
+
+}
+
+/*********************************************************************************************/
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  
+  form#form_user{
+    width:90%;
+  }
+
+  #social-network{ display: none;}
+
+
+  #bloc-galerie div img{
+    width: 80%;
+    height: 160px;
+  }
+
+  #pays-aimes span{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+  h2.nom-pays{
+    margin-top: 25px;
+  }
+
+  #nav a{
+    font-size:14px;
+    line-height:22px;
+    display:block;
+  }
+
+  #logo a{
+    padding:3px;
+  }
+
+   #logo a b{
+    display:none;
+  }
+
+  .other{
+    width:20%;
+  }
+
+  #video p{
+  line-height: 30px;
+  margin-left: 0px;
+  }
+
+  .avantages{
+    width:100%;
+  }
+
+  .avantages p{
+    width:70%;
+  }
+
+  #bloc-avantages{
+    width:70%;
+    margin:auto;
+  }
+
+  #first-step{
+    position: relative ;
+    top: 10%;
+    left:35%;
+    width:30%;
+    text-align: left;
+  }
+
+  #second-step{
+    position: relative ;
+    top: 20%;
+    left:55%;
+    width:30%;
+    text-align: left;
+  }
+
+  #third-step{
+    position: relative ;
+    top: 40%;
+    left:35%;
+    width:30%;
+    text-align: left;
+  }
+
+  footer a{
+    font-size: 14px;
+  }
+
+  .img-voyage{
+    margin:60px 20px 60px 0px;
+  }
+
+   #bloc-texte{
+          float:right;
+          width: 45%;
+        }
+
+  #image{
+    width:45%;
+          height:auto;
+          margin:auto;
+        }
+
+  #imagebox{
+          padding:10px;
+          border:none;
+          border-radius:10px;
+          position:fixed;
+          top:100px;
+          width:80%;
+          background-color:white;
+          left:10%;
+
+        });
+
+
+}
+
+
+
+
+/*********************************************************************************************/
+
+@media screen and (max-width: 900px) {
+
+  h2#home{
+    font-size:200%;
+  }
+
+
+#social-network{ display: block;}
+#social-network a{display: inline-block;padding: 10px 10px;}
+#social-network img{
+  width:30px;
+}
+
+  .bloc-voyages .bloc-gauche{
+    float:none;
+    margin:auto;
+    width: 50%;
+  }
+
+  .bloc-voyages a{
+    float:none;
+  }
+
+  #pays-aimes b{
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #bloc-profil{ 
+    text-align: center
+  }
+
+  #bloc-profil img{
+    float: none; 
+    width: 80%;
+    margin: auto;
+  }
+
+  .bloc_gauche{
+  width:100%;
+}
+
+  .bloc_droite{
+  width:100%;
+}
+
+.bloc_gauche img{
+  border-radius: 60%;
+  width: 200px;
+}
+
+  #descr-princ, #descr-sec{ 
+    margin: 20px; 
+    text-align: left
+  }
+
+  #preloader{
+  display: none;
+  position: absolute;
+  bottom: 150px;
+  left: 35%;
+  padding: 20px;
+}
+
+  #bloc-galerie{
+    width: 100%;
+  }
+
+  #bloc-galerie div{
+    width: 100%;
+  }
+
+  #bloc-galerie div img{
+    width: 80%;
+    height: 300px;
+  }
+
+  .bloc-gauche{
+    margin:0;
+  }
+
+  #slogan{
+    font-size:90%;
+  }
+
+  form#form_user{
+    width:100%;
+  }
+
+  #logo a b{
+    display:none;
+  }
+
+  #nav a{
+    font-size:14px;
+    line-height:22px;
+  }
+
+  #logo a{
+    padding:3px;
+  }
+
+  .other{
+    width:25%;
+  }
+
+  li#logo{
+    width:100%;
+  }
+
+  h1#accueil{
+    font-size: 125%;
+    margin-top:120px;
+    margin-bottom: 50px;
+    width:240px;
+  }
+
+  h1#inscription{
+    font-size: 125%;
+    margin-bottom: 50px;
+    width:240px;
+  }
+
+  h1#inscription1{
+    font-size: 125%;
+    margin-bottom: 50px;
+    width:240px;
+  }
+
+ h1#faq{
+    font-size: 125%;
+    margin-bottom: 50px;
+    width:250px;
+  }
+
+  #origin-map{
+    display: none;
+  }
+
+  .lightbox img{
+  padding: 10px;
+  width: 41%;
+}
+
+  .dest{
+    float:none;
+    width: 80%;
+    margin:auto;
+    margin-top: 40px;
+  }
+
+  .pola{
+    float: none;
+    margin:auto;
+    width:70%;
+    margin-bottom: 20px;
+    padding: 10px 10px 20%;
+  }
+
+  #content, #content1{
+    margin-top: 124px;
+    padding-bottom:200px;
+  }
+
+  #content1{
+    padding-bottom: 20px;
+  }
+
+  .pays{
+    display:none;
+  }
+
+  h4{
+    font-size: 125%;
+    width:180px;
+    margin-top:40px;
+    margin-bottom:50px;
+  }
+
+  .button1{
+    margin:0;
+  }
+
+  .pictos{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    width:23%;
+    font-size: 70%
+  }
+
+  #present{
+    padding-bottom:25px;
+  }
+
+  footer a{
+    font-size:14px;
+    display:block;
+  }
+
+  #video p{
+    line-height: 20px;
+    margin-left: 0px;
+  }
+
+  #video iframe{
+    width:100%;
+    float:none;
+  }
+    
+  #video {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
+
+  #para-video{
+    width: 100%;
+  }
+
+  h5{
+    margin: auto;
+    font-size: 125%;
+    margin-bottom:50px;
+    width:240px;
+    margin-top:40px;
+    float:none;
+  }
+
+  .avantages{
+    float:none;
+    width:100%;
+    text-align: center;
+  }
+
+  .avantages img{
+    float:none;
+    width:20%;
+  }
+
+  .avantages p{
+    float:none;
+    width:70%;
+    margin:auto;
+    font-size: 100%;
+  }
+
+  .bloc-equipe{
+    float:none;
+    width: 100%;
+  }
+
+  img#grand-etape{
+    display:none;
+  }
+
+  img#petit-etape{
+    position:relative;
+    top:-200px;
+    display:block;
+    width:80px;
+    margin:0px;
+  }
+
+  #bandeau-map{
+    height: 400px;
+  }
+
+  #first-step{
+    position: relative ;
+    top: 15%;
+    left:30%;
+    width:60%;
+    text-align: left;
+  }
+
+  #second-step{
+    position: relative ;
+    top: 20%;
+    left:30%;
+    width:60%;
+    text-align: left;
+  }
+
+  #third-step{
+    position: relative ;
+    top: 30%;
+    left:30%;
+    width:60%;
+    text-align: left;
+  }
+
+  form#form_user label, form#form_user input, form#form_user textarea{
+    float:none;
+  }
+
+  form#form_user label{
+    width: 100%;
+    text-align: center
+  }
+
+  form#form_user input, form#form_user textarea{ 
+    float: none;
+    width: 70%;
+   margin:20px 15% 20px 15%;
+  }
+
+  form#form_user input#submit{
+    width: 40%;
+    margin: 0px 30%;
+  }
+
+  p#oubli{
+    margin:30px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  p#compte{
+    width:80%;
+    font-size: 14px;
+    padding:0px 10%;
+  }
+  
+  p.description-voy{
+    margin-left:20px;
+  }
+
+  a.plus{
+    margin:auto;  
+  }
+
+  p.places{
+    width:100%;
+  }
+
+  p.plus-bloc{
+    text-align: center;
+    width:100%;
+  }
+
+  p.plus-bloc1{
+    text-align: center;
+    width:100%;
+  }
+
+  .etapes-bloc p.nom-etape {
+    float:none;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  h2#voyages{
+    width: 350px;
+  }
+
+  .fileUpload span{ 
+    left: 30px;
+    width: 100%;
+  }
+
+  .fileUpload{
+    left: 30px;
+  }
+
+  #publish, .article{
+    width: 80% ;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 60px; 
+  }
+
+  #publish img, img.profil-art{
+    width: 130px;
+    float: none;
+    top: 0px;
+    left: 0px;
+  }
+
+  #publication{ 
+    float:none;
+    width: 75%;
+    margin: auto;
+  }
+
+  #publication textarea{
+    width: 100%;
+    height: 120px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Montserrat";
+    font-size: 125%;
+  }
+
+  .article h3{
+    text-align: left;
+    color: black;
+    font-size: 180%;
+    padding: 40px 0px;
+    font-family: "Montserrat";
+  }
+
+  .article .droite-p{
+    width: 75%;
+    float: left;
+    margin-left: 40px;
+  }
+
+  .article{
+    padding-bottom: 40px;
+  }
+
+  .article p{
+    font-family: "Roboto-Light";
+    margin-bottom: 40px
+  }
+
+  .comment, .comments{
+    background-color: #ebebeb;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .comment textarea{
+    width: 100%;
+    background-color: #ebebeb;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 100%;
+  }
+
+  .comments h4{
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    text-align: left;
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .comments img{
+    width: 50px;
+    float:left;
+  }
+
+  .bloc-comment p{
+    margin-left: 10%;
+    font-size:90%;
+    margin-bottom: 10px;
+  }
+
+  .img-voyage{
+    width: 100%;
+  }
+
+  .buttonp{
+    float: none;
+  }
+
+  .img-hotel{
+    width: 100%;
+  }
+
+  h3.nom-voyage{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #bandeau-avantages h4{ width: 250px;}
+
+ #bloc-texte{
+          float:none;
+          width: 80%;
+          margin: auto;
+        }
+
+  #image{
+          width:100%;
+          height:auto;
+          margin:auto;
+        }
+
+  #imagebox{
+          padding:10px;
+          width:80%;
+          border:none;
+          border-radius:10px;
+          position:absolute;
+          top:100px;
+          left:10%;
+          background-color:white
+        });
+
+} 
+
+

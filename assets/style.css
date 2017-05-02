@@ -1,0 +1,9 @@
+ul#nav{
+	list-style: none; 
+	display: inline-block; 
+	}
+.nav{
+	position: fixed;
+	top: 0px; 
+	left: 0px;
+	background-color: grey; }
